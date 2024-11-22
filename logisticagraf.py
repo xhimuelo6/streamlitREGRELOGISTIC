@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 import seaborn as sns
 import matplotlib.pyplot as plt
 from streamlit_option_menu import option_menu
+import plotly.graph_objects as go  # Para diagramas de flujo (Sankey)
 
 # Configuración de la página
 st.set_page_config(page_title="Análisis Visual y Regresión", layout="wide")
